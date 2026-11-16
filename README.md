@@ -1,27 +1,26 @@
-﻿# Palabras bonitas
+# Palabras bonitas
 
-Decide si una palabra es “bonita” según dos reglas: 9 letras y empieza por H, o 5 letras y empieza por P.
+Una palabra es “bonita” si tiene 9 letras y empieza por H, o 5 letras y empieza por P.
 
 ## Qué hace
 
-- Escribes una palabra
-- Al evaluar, indica si cumple el criterio y por qué
-- Valida el campo vacío
+- Escribes la palabra
+- Te explica si cumple y por qué
+- Controla el campo vacío
 
 ## Cómo probarlo
 
-Abre `index.html` o la demo.
+Abre `index.html`.
 
 Demo: https://moussijoelle.github.io/palabras-bonitas/
 
 ## Cómo lo construí
 
-- HTML + JavaScript (`app.js`)
-- Comparación de longitud y primera letra
+Longitud + primera letra en `app.js`.
 
 ## Cómo verificarlo
 
-Sin tests. Pruebo ejemplos que cumplan (H……… / P….) y otros que no.
+Una que cumpla cada regla y otra que no.
 
 ---
 
